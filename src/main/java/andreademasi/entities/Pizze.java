@@ -18,7 +18,7 @@ public class Pizze {
 
     @Override
     public String toString() {
-        return "Pizze{" + name + toppings + ", " + Kcal + ", " + price + '}';
+        return "{" + name + toppings + ", " + Kcal + " Kcal" + ", " + price + "$" + "}\n";
     }
 }
 

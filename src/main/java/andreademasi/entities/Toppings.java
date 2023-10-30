@@ -15,6 +15,6 @@ public class Toppings {
 
     @Override
     public String toString() {
-        return "Toppings{" + name + ", " + Kcal + ", " + price + '}';
+        return "{" + name + ", " + Kcal + " Kcal" + ", " + price + "$" + "}\n";
     }
 }

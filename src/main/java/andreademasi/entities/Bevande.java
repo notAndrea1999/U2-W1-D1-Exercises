@@ -15,6 +15,6 @@ public class Bevande {
 
     @Override
     public String toString() {
-        return "Bevande{" + name + ", " + Kcal + ", " + price + '}';
+        return "{" + name + ", " + Kcal + " Kcal" + ", " + price + "$" + "}\n";
     }
 }
